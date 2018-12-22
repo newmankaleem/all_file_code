@@ -1,0 +1,7 @@
+
+
+
+  git clone https://github.com/learn-chef/learn_chef_apache2.git
+
+
+  knife bootstrap 172.17.0.2 --ssh-user gamut --ssh-password 'gamut' --sudo --use-sudo-password --node-name gamut --run-list 'recipe[learn_chef_apache2]'
